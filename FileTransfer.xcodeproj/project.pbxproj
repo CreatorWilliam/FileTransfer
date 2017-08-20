@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		730977601F49F2B600F20C9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7309775F1F49F2B600F20C9D /* AppDelegate.swift */; };
+		730977671F49F2B600F20C9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730977661F49F2B600F20C9D /* Assets.xcassets */; };
+		7309776A1F49F2B600F20C9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730977681F49F2B600F20C9D /* LaunchScreen.storyboard */; };
+		730977771F49F2E500F20C9D /* FileListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730977711F49F2E500F20C9D /* FileListViewController.swift */; };
+		730977781F49F2E500F20C9D /* FileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730977731F49F2E500F20C9D /* FileHelper.swift */; };
+		730977791F49F2E500F20C9D /* FileListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730977741F49F2E500F20C9D /* FileListItem.swift */; };
+		7309777A1F49F2E500F20C9D /* FileListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730977761F49F2E500F20C9D /* FileListTableViewCell.swift */; };
+		730977821F49F2EE00F20C9D /* ReciveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7309777D1F49F2ED00F20C9D /* ReciveViewController.swift */; };
+		730977831F49F2EE00F20C9D /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7309777E1F49F2ED00F20C9D /* SendViewController.swift */; };
+		730977841F49F2EE00F20C9D /* RippleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730977811F49F2EE00F20C9D /* RippleAnimationView.swift */; };
+		730977861F49F2F500F20C9D /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730977851F49F2F500F20C9D /* HomeTabBarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7309778B1F49F3B400F20C9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 730977871F49F3B400F20C9D /* WMLayoutKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 73F2E9B51F09399F00A5CC62;
+			remoteInfo = WMLayoutKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7309775C1F49F2B600F20C9D /* FileTransferForiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileTransferForiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7309775F1F49F2B600F20C9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		730977661F49F2B600F20C9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		730977691F49F2B600F20C9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7309776B1F49F2B600F20C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		730977711F49F2E500F20C9D /* FileListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileListViewController.swift; sourceTree = "<group>"; };
+		730977731F49F2E500F20C9D /* FileHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileHelper.swift; sourceTree = "<group>"; };
+		730977741F49F2E500F20C9D /* FileListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileListItem.swift; sourceTree = "<group>"; };
+		730977761F49F2E500F20C9D /* FileListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileListTableViewCell.swift; sourceTree = "<group>"; };
+		7309777D1F49F2ED00F20C9D /* ReciveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReciveViewController.swift; sourceTree = "<group>"; };
+		7309777E1F49F2ED00F20C9D /* SendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendViewController.swift; sourceTree = "<group>"; };
+		730977811F49F2EE00F20C9D /* RippleAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RippleAnimationView.swift; sourceTree = "<group>"; };
+		730977851F49F2F500F20C9D /* HomeTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
+		730977871F49F3B400F20C9D /* WMLayoutKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WMLayoutKit.xcodeproj; path = ../../WMKit/WMLayoutKit/WMLayoutKit.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		730977591F49F2B600F20C9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		730977511F49F27400F20C9D = {
+			isa = PBXGroup;
+			children = (
+				730977871F49F3B400F20C9D /* WMLayoutKit.xcodeproj */,
+				7309775E1F49F2B600F20C9D /* FileTransferForiOS */,
+				7309775D1F49F2B600F20C9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7309775D1F49F2B600F20C9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7309775C1F49F2B600F20C9D /* FileTransferForiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7309775E1F49F2B600F20C9D /* FileTransferForiOS */ = {
+			isa = PBXGroup;
+			children = (
+				7309775F1F49F2B600F20C9D /* AppDelegate.swift */,
+				730977851F49F2F500F20C9D /* HomeTabBarController.swift */,
+				7309777B1F49F2ED00F20C9D /* MultipeerConnectivity */,
+				7309776F1F49F2E500F20C9D /* File */,
+				730977661F49F2B600F20C9D /* Assets.xcassets */,
+				730977681F49F2B600F20C9D /* LaunchScreen.storyboard */,
+				7309776B1F49F2B600F20C9D /* Info.plist */,
+			);
+			path = FileTransferForiOS;
+			sourceTree = "<group>";
+		};
+		7309776F1F49F2E500F20C9D /* File */ = {
+			isa = PBXGroup;
+			children = (
+				730977701F49F2E500F20C9D /* Controller */,
+				730977721F49F2E500F20C9D /* Model */,
+				730977751F49F2E500F20C9D /* View */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		730977701F49F2E500F20C9D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				730977711F49F2E500F20C9D /* FileListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		730977721F49F2E500F20C9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				730977731F49F2E500F20C9D /* FileHelper.swift */,
+				730977741F49F2E500F20C9D /* FileListItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		730977751F49F2E500F20C9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				730977761F49F2E500F20C9D /* FileListTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7309777B1F49F2ED00F20C9D /* MultipeerConnectivity */ = {
+			isa = PBXGroup;
+			children = (
+				7309777C1F49F2ED00F20C9D /* Controller */,
+				7309777F1F49F2EE00F20C9D /* Model */,
+				730977801F49F2EE00F20C9D /* View */,
+			);
+			path = MultipeerConnectivity;
+			sourceTree = "<group>";
+		};
+		7309777C1F49F2ED00F20C9D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7309777D1F49F2ED00F20C9D /* ReciveViewController.swift */,
+				7309777E1F49F2ED00F20C9D /* SendViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7309777F1F49F2EE00F20C9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		730977801F49F2EE00F20C9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				730977811F49F2EE00F20C9D /* RippleAnimationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		730977881F49F3B400F20C9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7309778C1F49F3B400F20C9D /* WMLayoutKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7309775B1F49F2B600F20C9D /* FileTransferForiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7309776E1F49F2B600F20C9D /* Build configuration list for PBXNativeTarget "FileTransferForiOS" */;
+			buildPhases = (
+				730977581F49F2B600F20C9D /* Sources */,
+				730977591F49F2B600F20C9D /* Frameworks */,
+				7309775A1F49F2B600F20C9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FileTransferForiOS;
+			productName = FileTransferForiOS;
+			productReference = 7309775C1F49F2B600F20C9D /* FileTransferForiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		730977521F49F27400F20C9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					7309775B1F49F2B600F20C9D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 730977551F49F27400F20C9D /* Build configuration list for PBXProject "FileTransfer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 730977511F49F27400F20C9D;
+			productRefGroup = 7309775D1F49F2B600F20C9D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 730977881F49F3B400F20C9D /* Products */;
+					ProjectRef = 730977871F49F3B400F20C9D /* WMLayoutKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7309775B1F49F2B600F20C9D /* FileTransferForiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7309778C1F49F3B400F20C9D /* WMLayoutKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = WMLayoutKit.framework;
+			remoteRef = 7309778B1F49F3B400F20C9D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7309775A1F49F2B600F20C9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7309776A1F49F2B600F20C9D /* LaunchScreen.storyboard in Resources */,
+				730977671F49F2B600F20C9D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		730977581F49F2B600F20C9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730977791F49F2E500F20C9D /* FileListItem.swift in Sources */,
+				730977841F49F2EE00F20C9D /* RippleAnimationView.swift in Sources */,
+				730977601F49F2B600F20C9D /* AppDelegate.swift in Sources */,
+				730977861F49F2F500F20C9D /* HomeTabBarController.swift in Sources */,
+				730977821F49F2EE00F20C9D /* ReciveViewController.swift in Sources */,
+				730977831F49F2EE00F20C9D /* SendViewController.swift in Sources */,
+				730977771F49F2E500F20C9D /* FileListViewController.swift in Sources */,
+				730977781F49F2E500F20C9D /* FileHelper.swift in Sources */,
+				7309777A1F49F2E500F20C9D /* FileListTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		730977681F49F2B600F20C9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				730977691F49F2B600F20C9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		730977561F49F27400F20C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		730977571F49F27400F20C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		7309776C1F49F2B600F20C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = FileTransferForiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.william.FileTransferForiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7309776D1F49F2B600F20C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = FileTransferForiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = org.william.FileTransferForiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		730977551F49F27400F20C9D /* Build configuration list for PBXProject "FileTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730977561F49F27400F20C9D /* Debug */,
+				730977571F49F27400F20C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7309776E1F49F2B600F20C9D /* Build configuration list for PBXNativeTarget "FileTransferForiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7309776C1F49F2B600F20C9D /* Debug */,
+				7309776D1F49F2B600F20C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 730977521F49F27400F20C9D /* Project object */;
+}
